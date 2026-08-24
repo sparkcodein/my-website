@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Suraj — Front-End Developer & UI/UX Designer. I design and build clean, responsive, high-performing websites and interfaces.">
+    <title>Suraj | Front-End Developer & UI/UX Designer</title>
+
+    <script src="jQuery/jquery-3.7.1.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_upward" />
+    <link rel="shortcut icon" href="images/suraj logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <a href="#home" class="scroll_to_top" aria-label="Scroll back to top">
+        <span class="material-symbols-outlined">arrow_upward</span>
+    </a>
+
+    <nav>
+        <div class="logo"><a href="#home"><img src="images/logo1.png" style="height: 33px; width:144px;" alt="logo"></a>
+        </div>
+        <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+        <div class="nav-right">
+            <div class="menu">
+                <ul>
+                    <li><a href="#home" class="nav_link">Home</a></li>
+                    <li><a href="#skills" class="nav_link">Skills</a></li>
+                    <li><a href="#qualifications" class="nav_link">Education</a></li>
+                    <li><a href="#services" class="nav_link">Services</a></li>
+                    <li><a href="#portfolio" class="nav_link">Work</a></li>
+                </ul>
+            </div>
+            <a href="#contact" class="nav-btn nav_link">Contact</a>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <!-- HOME -->
+        <section class="home" id="home">
+            <div class="hero">
+                <div class="hero-content">
+                    <div class="eyebrow">Available for freelance work</div>
+                    <h2>Hi, I'm Suraj</h2>
+                    <h1>Front-End Developer &amp; UI/UX Designer</h1>
+                    <p>
+                        I design and build modern, responsive, and visually engaging websites
+                        with clean UI/UX experiences that help brands stand out online.
+                    </p>
+
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/sr-sparkcode/" target="_blank" rel="noopener"
+                            aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M4.98 3.5C4.98 4.88 3.87 6 2.49 6S0 4.88 0 3.5 1.12 1 2.49 1s2.49 1.12 2.49 2.5zM.5 8.5h4v14h-4v-14zM8.5 8.5h3.8v1.9h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1v8.05h-4v-7.14c0-1.7-.03-3.9-2.38-3.9-2.38 0-2.74 1.85-2.74 3.77v7.27h-4v-14z" />
+                            </svg>
+                        </a>
+                        <a href="https://github.com/sparkcodein" target="_blank" rel="noopener" aria-label="GitHub">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.04-.72.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.75 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.24 2.76.12 3.05.74.8 1.18 1.83 1.18 3.09 0 4.42-2.69 5.4-5.25 5.68.41.36.78 1.08.78 2.17 0 1.57-.01 2.83-.01 3.22 0 .31.21.67.8.56A10.52 10.52 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5z" />
+                            </svg>
+                        </a>
+                        <a href="https://x.com/sparkcodein" target="_blank" aria-label="X (Twitter)">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M18.9 2H22l-7.6 8.7L23 22h-6.8l-5.3-6.7L4.8 22H1.6l8.1-9.3L1 2h7l4.8 6.1L18.9 2zm-1.2 18h1.9L7.3 4H5.2l12.5 16z" />
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/sr_sparkcode/" target="_blank" rel="noopener"
+                            aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                                <rect x="2.5" y="2.5" width="19" height="19" rx="5" />
+                                <circle cx="12" cy="12" r="4.3" />
+                                <circle cx="17.4" cy="6.6" r="1" fill="currentColor" stroke="none" />
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="hero-actions">
+                        <a href="#contact" class="hire">Hire me</a>
+                        <a href="#portfolio" class="hire ghost">View work</a>
+                    </div>
+
+                    <div class="stats">
+                        <div class="stat">
+                            <h3>12+</h3>
+                            <p>PROJECTS SHIPPED</p>
+                        </div>
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p>HAPPY CLIENTS</p>
+                        </div>
+                        <div class="stat">
+                            <h3>1+</h3>
+                            <p>YEARS BUILDING</p>
+                        </div>
+                        <div class="stat">
+                            <h3>100%</h3>
+                            <p>RESPONSIVE FOCUS</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-img">
+                    <img src="images/profilefinal.jpg" alt="Portrait of Suraj">
+                    <div class="status-pill">Open to work</div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="horizontal">
+
+        <!-- SKILLS -->
+        <section class="skills" id="skills">
+            <div class="section-head">
+                <h2>Skills &amp; Expertise</h2>
+                <p>The tools and technologies I use to bridge the gap between clean design and functional code.</p>
+            </div>
+
+            <div class="skillb">
+                <div class="skillb1 animate-on-scroll" data-animation="animate__fadeInUp">
+                    <div class="icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#50A2FF" stroke-width="1.6">
+                            <rect x="3" y="3" width="7" height="7" rx="1.5" />
+                            <rect x="14" y="3" width="7" height="7" rx="1.5" />
+                            <rect x="3" y="14" width="7" height="7" rx="1.5" />
+                            <circle cx="17.5" cy="17.5" r="3.5" />
+                        </svg>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Crafting intuitive and user-centered digital experiences from initial research to high-fidelity,
+                        pixel-perfect prototypes.</p>
+                    <ul class="list">
+                        <li class="figma">Figma</li>
+                        <li class="figma">Wireframing</li>
+                        <li class="figma">Prototyping</li>
+                    </ul>
+                    <ul class="listb">
+                        <li class="figma">User Flows</li>
+                        <li class="figma">Mobile-First UI</li>
+                    </ul>
+                </div>
+
+                <div class="skillb1 animate-on-scroll" data-animation="animate__fadeInUp">
+                    <div class="icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#01CD8E" stroke-width="1.6">
+                            <path d="M8 5 2 12l6 7M16 5l6 7-6 7M13.5 3l-3 18" />
+                        </svg>
+                    </div>
+                    <h3>Front-End Development</h3>
+                    <p>Building fast, scalable, and highly responsive web applications using modern frameworks and best
+                        coding practices.</p>
+                    <ul class="list">
+                        <li class="figma">Next.js</li>
+                        <li class="figma">React.js</li>
+                        <li class="figma">Tailwind CSS</li>
+                    </ul>
+                    <ul class="listb">
+                        <li class="figma">JavaScript</li>
+                        <li class="figma">HTML5 / CSS3</li>
+                        <li class="figma">Git / GitHub</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <hr class="horizontal">
+
+        <!-- QUALIFICATIONS -->
+        <section class="qualifications" id="qualifications">
+            <div class="section-head">
+                <h2>Education &amp; Background</h2>
+                <p>My academic journey and continuous learning path in bridging design and code.</p>
+            </div>
+
+            <div class="timeline">
+                <div class="tl-item">
+                    <h3>Bachelor of Computer Applications (BCA)</h3>
+                    <p class="tl-tag">IGNOU • Currently Pursuing</p>
+                    <p class="desc">Building a strong foundation in computer science principles while actively applying
+                        concepts to real-world front-end and UI/UX projects.</p>
+                </div>
+
+                <div class="tl-item">
+                    <h3>Practical Experience &amp; UI/UX</h3>
+                    <p class="tl-tag">Arena Anination, Pitampura • Continuous</p>
+                    <p class="desc">Mastering modern web technologies like Next.js and Tailwind CSS, along with Figma,
+                        through hands-on project building — turning complex app concepts into scalable code.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr class="horizontal">
+
+        <!-- SERVICES -->
+        <section class="services" id="services">
+            <div class="section-head">
+                <h2>What I Do</h2>
+                <p>Bridging the gap between aesthetics and functionality to deliver complete digital solutions.</p>
+            </div>
+
+            <div class="serviecs1">
+                <div class="serv1 animate-on-scroll" data-animation="animate__slideInLeft" id="blue">
+                    <div class="icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#50A2FF" stroke-width="1.6">
+                            <rect x="3" y="3" width="7" height="7" rx="1.5" />
+                            <rect x="14" y="3" width="7" height="7" rx="1.5" />
+                            <rect x="3" y="14" width="7" height="7" rx="1.5" />
+                            <circle cx="17.5" cy="17.5" r="3.5" />
+                        </svg>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Designing intuitive, user-centric interfaces from initial wireframes to high-fidelity Figma
+                        prototypes that solve real-world problems.</p>
+                </div>
+
+                <div class="serv1 animate-on-scroll" data-animation="animate__slideInUp" id="green">
+                    <div class="icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#01CD8E" stroke-width="1.6">
+                            <path d="M8 5 2 12l6 7M16 5l6 7-6 7M13.5 3l-3 18" />
+                        </svg>
+                    </div>
+                    <h3>Front-End Dev</h3>
+                    <p>Building fast, responsive, and scalable web applications using modern technologies like Next.js,
+                        Tailwind CSS, and JavaScript.</p>
+                </div>
+
+                <div class="serv1 animate-on-scroll" data-animation="animate__slideInRight" id="purple">
+                    <div class="icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#A16BFF" stroke-width="1.6">
+                            <path d="M12 3v18M5 8l7-5 7 5M5 16l7 5 7-5" />
+                        </svg>
+                    </div>
+                    <h3>App Concepts</h3>
+                    <p>Taking innovative ideas from scratch and structuring them into complete digital products with
+                        seamless user flows and branding.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr class="horizontal">
+
+        <!-- PORTFOLIO -->
+        <section class="portfolio" id="portfolio">
+            <div class="section-head">
+                <h2>Selected Work</h2>
+                <p>A few projects I've designed and built recently.</p>
+            </div>
+
+            <div class="filter-nav" role="tablist" aria-label="Filter portfolio">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="website">Website Design</button>
+                <button class="filter-btn" data-filter="uiux">UI/UX</button>
+                <button class="filter-btn" data-filter="uidesign">UI Designs</button>
+            </div>
+
+            <div class="portfolio-container">
+
+                <a class="portfolio-item animate-on-scroll" data-animation="animate__fadeInUp" data-category="website"
+                    href="https://dilliguru.com/" target="_blank" rel="noopener">
+                    <div class="portfolio-thumb"><img src="images/rasonic.jpg" alt="DilliGuru website design"
+                            loading="lazy"></div>
+                    <div class="portfolio-meta">
+                        <div>
+                            <h4>Rasonic</h4><span>Website Design</span>
+                        </div>
+                        <div class="visit-arrow"><svg viewBox="0 0 24 24" fill="none">
+                                <path d="M7 17 17 7M8 7h9v9" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg></div>
+                    </div>
+                </a>
+
+                <a class="portfolio-item animate-on-scroll" data-animation="animate__fadeInUp" data-category="website"
+                    href="https://craft.sparkcode.in/" target="_blank" rel="noopener">
+                    <div class="portfolio-thumb"><img src="images/craft.sparkcode.in_.png"
+                            alt="Craft by Sparkcode design" loading="lazy"></div>
+                    <div class="portfolio-meta">
+                        <div>
+                            <h4>Craft</h4><span>Website Design</span>
+                        </div>
+                        <div class="visit-arrow"><svg viewBox="0 0 24 24" fill="none">
+                                <path d="M7 17 17 7M8 7h9v9" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg></div>
+                    </div>
+                </a>
+
+                <a class="portfolio-item animate-on-scroll" data-animation="animate__fadeInUp" data-category="motion"
+                    href="https://kaajindia.com/" target="_blank" rel="noopener">
+                    <div class="portfolio-thumb"><img src="images/kaajindia.jpg" alt="Kaaj India UI design"
+                            loading="lazy"></div>
+                    <div class="portfolio-meta">
+                        <div>
+                            <h4>Kaaj India</h4><span>Website Design</span>
+                        </div>
+                        <div class="visit-arrow"><svg viewBox="0 0 24 24" fill="none">
+                                <path d="M7 17 17 7M8 7h9v9" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg></div>
+                    </div>
+                </a>
+
+                <a class="portfolio-item animate-on-scroll" data-animation="animate__fadeInUp" data-category="website"
+                    href="https://cetusdesignstudio.com/" target="_blank" rel="noopener">
+                    <div class="portfolio-thumb"><img src="images/travel.jpg" alt="Cetus Design Studio graphics"
+                            loading="lazy"></div>
+                    <div class="portfolio-meta">
+                        <div>
+                            <h4>Cetus Studio</h4><span>Website Design</span>
+                        </div>
+                        <div class="visit-arrow"><svg viewBox="0 0 24 24" fill="none">
+                                <path d="M7 17 17 7M8 7h9v9" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg></div>
+                    </div>
+                </a>
+
+                <a class="portfolio-item animate-on-scroll" data-animation="animate__fadeInUp" data-category="website"
+                    href="http://keyvibes.sparkcode.in/" target="_blank" rel="noopener">
+                    <div class="portfolio-thumb"><img src="images/keyvibes.jpg" alt="KeyVibes UI design" loading="lazy">
+                    </div>
+                    <div class="portfolio-meta">
+                        <div>
+                            <h4>KeyVibes</h4><span>Website Design</span>
+                        </div>
+                        <div class="visit-arrow"><svg viewBox="0 0 24 24" fill="none">
+                                <path d="M7 17 17 7M8 7h9v9" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg></div>
+                    </div>
+                </a>
+
+                <a class="portfolio-item animate-on-scroll" data-animation="animate__fadeInUp" data-category="uiux"
+                    href="images/uiux-case-study.jpg" target="_blank" rel="noopener">
+                    <div class="portfolio-thumb"><img src="images/ssuiu.jpg" alt="Zwear landing page design"
+                            loading="lazy"></div>
+                    <div class="portfolio-meta">
+                        <div>
+                            <h4>Yukti AI</h4><span>UX Case Study</span>
+                        </div>
+                        <div class="visit-arrow"><svg viewBox="0 0 24 24" fill="none">
+                                <path d="M7 17 17 7M8 7h9v9" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg></div>
+                    </div>
+                </a>
+
+                <a class="portfolio-item animate-on-scroll" data-animation="animate__fadeInUp" data-category="uidesign"
+                    href="images/svyam incarnation landing page.png" target="_blank" rel="noopener">
+                    <div class="portfolio-thumb"><img src="images/svyam incarnation.jpg"
+                            alt="Svyam Incarnation landing page" loading="lazy"></div>
+                    <div class="portfolio-meta">
+                        <div>
+                            <h4>Svyam Incarnation</h4><span>Landing Page</span>
+                        </div>
+                        <div class="visit-arrow"><svg viewBox="0 0 24 24" fill="none">
+                                <path d="M7 17 17 7M8 7h9v9" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg></div>
+                    </div>
+                </a>
+
+                <a class="portfolio-item animate-on-scroll" data-animation="animate__fadeInUp" data-category="uidesign"
+                    href="images/Axis bank.png" target="_blank" rel="noopener">
+                    <div class="portfolio-thumb"><img src="images/axis bank.jpg" alt="Axis Bank concept design"
+                            loading="lazy"></div>
+                    <div class="portfolio-meta">
+                        <div>
+                            <h4>Axis Bank Concept</h4><span>Landing Page</span>
+                        </div>
+                        <div class="visit-arrow"><svg viewBox="0 0 24 24" fill="none">
+                                <path d="M7 17 17 7M8 7h9v9" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg></div>
+                    </div>
+                </a>
+
+                <a class="portfolio-item animate-on-scroll" data-animation="animate__fadeInUp" data-category="uidesign"
+                    href="images/advertising landing page.png" target="_blank" rel="noopener">
+                    <div class="portfolio-thumb"><img src="images/advertising.jpg" alt="Advertising landing page design"
+                            loading="lazy"></div>
+                    <div class="portfolio-meta">
+                        <div>
+                            <h4>Advertising Agency</h4><span>Landing Page</span>
+                        </div>
+                        <div class="visit-arrow"><svg viewBox="0 0 24 24" fill="none">
+                                <path d="M7 17 17 7M8 7h9v9" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg></div>
+                    </div>
+                </a>
+
+                <a class="portfolio-item animate-on-scroll" data-animation="animate__fadeInUp" data-category="website"
+                    href="images/advertising landing page.png" target="_blank" rel="noopener">
+                    <div class="portfolio-thumb"><img src="images/advertising.jpg" alt="Advertising landing page design"
+                            loading="lazy"></div>
+                    <div class="portfolio-meta">
+                        <div>
+                            <h4>Photographer</h4><span>Website Design</span>
+                        </div>
+                        <div class="visit-arrow"><svg viewBox="0 0 24 24" fill="none">
+                                <path d="M7 17 17 7M8 7h9v9" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg></div>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+
+        <hr class="horizontal">
+
+        <!-- CONTACT -->
+        <section class="contact" id="contact">
+            <div class="fullform">
+                <div class="lets animate-on-scroll" data-animation="animate__fadeInLeft">
+                    <div class="eyebrow">Let's talk</div>
+                    <h3>Let's build something awesome together.</h3>
+                    <p style="padding-top: 12px;">Whether you have a specific project in mind, need help with UI/UX
+                        design, or just want to chat
+                        about front-end development, my inbox is always open.</p>
+
+
+
+                    <div class="email">
+                        <div class="eicon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="#9B5CFF" stroke-width="1.6"
+                                stroke-linecap="round" stroke-linejoin="round">
+
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2
+                 19.79 19.79 0 0 1-8.63-3.07
+                 19.5 19.5 0 0 1-6-6
+                 19.79 19.79 0 0 1-3.07-8.67
+                 A2 2 0 0 1 4.11 2h3
+                 a2 2 0 0 1 2 1.72
+                 12.84 12.84 0 0 0 .7 2.81
+                 2 2 0 0 1-.45 2.11L8.09 9.91
+                 a16 16 0 0 0 6 6l1.27-1.27
+                 a2 2 0 0 1 2.11-.45
+                 12.84 12.84 0 0 0 2.81.7
+                 A2 2 0 0 1 22 16.92z" />
+                            </svg>
+                        </div>
+                        <div class="econt">
+                            <p>Contact</p>
+                            <p><a href="tel:+919876543210">
+                                    +91 98765 43210
+                                </a></p>
+                        </div>
+                    </div>
+
+
+                    <div class="email">
+                        <div class="eicon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="#50A2FF" stroke-width="1.6">
+                                <rect x="2" y="4" width="20" height="16" rx="2" />
+                                <path d="m2 6 10 7 10-7" />
+                            </svg>
+                        </div>
+                        <div class="econt">
+                            <p>Drop me a line</p>
+                            <p><a href="mailto:sparkcode.in@gmail.com">satyapalkumar329@gmail.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="email">
+                        <div class="eicon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="#01CD8E" stroke-width="1.6">
+                                <path d="M12 22s7-7.2 7-12.5A7 7 0 0 0 5 9.5C5 14.8 12 22 12 22z" />
+                                <circle cx="12" cy="9.5" r="2.5" />
+                            </svg>
+                        </div>
+                        <div class="econt">
+                            <p>Location</p>
+                            <p>Delhi NCR, India</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="form animate-on-scroll" data-animation="animate__fadeInRight" id="contact-form">
+                    <div class="fullmform">
+                        <div>
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="user_name" placeholder="Enter your name" class="change"
+                                required>
+                        </div>
+
+                        <div class="form-row">
+                            <div>
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="user_email" placeholder="Enter your email"
+                                    class="change" required>
+                            </div>
+                            <div>
+                                <label for="contact">Your Phone</label>
+                                <input type="tel" id="phone" name="user_phone" placeholder="Enter your phone number"
+                                    class="change" required>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="query">
+                        <label for="idea">Your Message</label>
+                        <textarea name="message" id="idea" placeholder="Tell me about your project...."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="submit">Send Message</button>
+                </form>
+            </div>
+
+            <hr class="horizontal" style="margin-top:40px;">
+            <footer>© 2026 Suraj. All Rights Reserved.</footer>
+        </section>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+
+    <script>
+        // Vanilla JS so the button works even if jQuery fails to load
+        (function () {
+            const stt = document.querySelector('.scroll_to_top');
+            if (!stt) return;
+            window.addEventListener('scroll', function () {
+                if (window.scrollY > 100) { stt.classList.add('show'); }
+                else { stt.classList.remove('show'); }
+            });
+        })();
+
+        $("a[href^='#']").click(function (e) {
+            const target = $(this).attr("href");
+            if (target.length > 1 && $(target).length) {
+                e.preventDefault();
+                var position = $(target).offset().top;
+                var finalposition = position - 80;
+                $("body,html").animate({ scrollTop: finalposition }, 500);
+            }
+        });
+
+        $(document).ready(function () {
+            $('.portfolio-item').addClass('animate-item');
+
+            $('.filter-btn').click(function () {
+                $('.filter-btn').removeClass('active');
+                $(this).addClass('active');
+
+                var filterValue = $(this).attr('data-filter');
+                $('.portfolio-item').hide().removeClass('animate-item');
+
+                setTimeout(function () {
+                    if (filterValue === 'all') {
+                        $('.portfolio-item').show().addClass('animate-item');
+                    } else {
+                        $('.portfolio-item[data-category="' + filterValue + '"]').show().addClass('animate-item');
+                    }
+                }, 50);
+            });
+        });
+
+        const elements = document.querySelectorAll(".animate-on-scroll");
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    const animation = entry.target.getAttribute("data-animation");
+                    entry.target.classList.add("animate__animated", animation);
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.2 });
+        elements.forEach((el) => observer.observe(el));
+
+        const toggle = document.querySelector(".menu-toggle");
+        const navRight = document.querySelector(".nav-right");
+        toggle.onclick = function () {
+            const isOpen = navRight.classList.toggle("active");
+            toggle.innerHTML = isOpen ? "✖" : "☰";
+            toggle.setAttribute("aria-expanded", isOpen);
+        };
+
+        document.querySelectorAll(".nav_link").forEach(link => {
+            link.onclick = function () {
+                navRight.classList.remove("active");
+                toggle.innerHTML = "☰";
+                toggle.setAttribute("aria-expanded", "false");
+            };
+        });
+
+        // 2. Apni Public Key yahan dalein
+        emailjs.init({
+            publicKey: "vCUkNN-1_qFl3Nckb"
+        });
+
+        // 3. Form submission handle karein
+        $("#contact-form").on("submit", function (e) {
+            e.preventDefault();
+            const btn = $(".submit");
+            btn.text("Sending...");
+            btn.prop("disabled", true);
+
+            // Apni Service ID aur Template ID yahan replace karein
+            emailjs.sendForm("service_cv3lthq", "template_621e0iw", this)
+                .then(function () {
+                    alert("✅ Message sent successfully!");
+                    $("#contact-form")[0].reset();
+                })
+                .catch(function (error) {
+                    alert("❌ Message could not be sent. Please try again.");
+                    console.error("EmailJS Error:", error);
+                })
+                .finally(function () {
+                    btn.text("Send Message");
+                    btn.prop("disabled", false);
+                });
+        });
+    </script>
+
+
+</body>
+
+</html>
